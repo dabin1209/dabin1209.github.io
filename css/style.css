@@ -926,15 +926,13 @@ li {
 }
 
 .project-main>.computerarea>.computerdevice {
-    width: 295px;
-    height: 167px;
+    width: 290px;
+    height: 290px;
+    object-fit: cover;
     margin: 0 auto;
-    background-color: burlywood;
     position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 11;
-    overflow: hidden;
+    top: 11px;
+    left: 13px;
 }
 
 .computerarea>.computerdevice a {
@@ -947,6 +945,7 @@ li {
     width: 100%;
     position: relative;
     top: 0;
+    cursor: default;
 }
 
 /* project02 */
@@ -1035,6 +1034,7 @@ li {
     width: 100%;
     position: relative;
     top: 0;
+    cursor: default;
 }
 
 
